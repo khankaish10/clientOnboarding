@@ -1,0 +1,67 @@
+.navbar {
+  /* font-family: 'fiona'; */
+
+  font-family: 'silverSouthScriptAlt';
+    /* font-size: 1.5em; */
+
+  font-weight: 700;
+  /* font-size: 1.5rem; */
+  /* background-color: #8E98A5; */
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+
+  padding: 2rem;
+  background-color: #222222;
+  position: relative;
+  /* z-index: 1; */
+  /* transform: width 0.5s ease; */
+}
+.navbar.active {
+  /* margin-left: 300px; */
+}
+
+.navbar > button {
+  position: absolute;
+  right: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px 5px;
+  outline: none;
+  border: none;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: #222222;
+}
+
+.navbar > p {
+  color: #fff;
+  font-weight: 300;
+  font-size: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar > p { 
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .navbar > button {
+    right: 10px;
+    padding: 3px 3px;
+  }
+  .navbar > button > svg{
+    height: 18px;
+    width: 18px;
+  }
+  .navbar > p { 
+    font-size: 1.5rem;
+  }
+
+}
+  

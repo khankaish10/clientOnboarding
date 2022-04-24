@@ -1,0 +1,101 @@
+.authContainer {
+  display: flex;
+  height: 100vh;
+}
+
+.hero {
+  flex: 0.5;
+  color: #fff;
+  background-color: #222222;
+  position: relative;
+  /* border: 1px solid red; */
+}
+
+.welcomeContainer > h3 {
+  font-family: 'silverSouthScript';
+  /* font-family: 'silverSouthScriptAlt'; */
+  font-size: 3rem;
+  font-weight: 300;
+  padding-bottom: 1rem;
+  color: #fff;
+  border-bottom: 3px solid #fff;
+}
+
+.welcomeContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.2;
+  
+  width: 100%;
+}
+/* 
+.welcomeContainer > p {
+  font-size: 1.5rem;
+}
+.welcomeContainer > h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  font-family: 'fiona serif';
+} */
+
+.loginContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0.5;
+  background-color: #f2ede7;
+}
+
+.login  {
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 60%;
+  width: 50%;
+  background-color: #fff;
+  /* max-height: 50%; */
+  /* height: 42%; */
+}
+
+.forgetEmailContainer {
+  height: auto;
+}
+
+@media screen and (max-width: 800px) {
+   
+    .login {
+        max-width: 100%;
+        width: 95%;
+        
+    }
+}
+@media screen and (max-width: 768px) {
+    .hero {
+        display: none;
+    }
+    .authContainer {
+        align-items: center;
+        justify-content: center;
+        /* background-color: #5e9efd; */
+        background-color:#222222;
+    }
+    .loginContainer {
+        flex: 0.8;
+        background-color: #fff;
+        /* border: 1px solid red; */
+    }
+    .login {
+        /* box-shadow: 1px 1px 20px #244981; */
+        max-width: 100%;
+        width: 100%;
+        
+    }
+}

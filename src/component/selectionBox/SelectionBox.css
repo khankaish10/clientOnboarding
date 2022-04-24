@@ -1,0 +1,40 @@
+.selectionBox {
+    display: flex;
+    margin-bottom: 10px;
+    padding: 2px;
+    align-items: center;
+    width: 100%;
+}
+.selectionBox  {
+    font-size: 14px;
+}
+.selectionBoxPara > span {
+    font-style: bold;
+    font-weight: 500;
+}
+input {
+    margin-right: 10px;
+}
+
+
+.designpreferenceImage {
+    max-height: 50%;
+    height: 100%;
+    width: 100%;
+}
+
+
+.designpreferenceImage > img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  
+    
+    .designpreferenceImage {
+        height: 90%;
+        
+    }
+}

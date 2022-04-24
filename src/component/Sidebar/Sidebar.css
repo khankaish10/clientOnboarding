@@ -1,0 +1,126 @@
+.sidebar {
+  font-family: 'fiona serif';
+  /* min-height: 100vh; */
+  height: 100%;
+  background-color: #222222; 
+  display: flex;
+  flex-direction: column;
+  transition: 0.5s ease all;
+  position: relative;
+  /* border: 1px solid rgb(255, 0, 0);  */
+}
+
+.slideButton {
+  position: absolute; 
+  top: 2vh;
+  right: -30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: red; */
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+.slideButton.blackBtn {
+  color: #222222;
+}
+
+.sidebarHeader {
+  padding-top: 2rem;
+  margin: 0 1rem;
+  height: auto;
+  width: auto;
+  border-bottom: 0.1rem solid #fff;
+  font-size: 1.2rem;
+}
+.sidebarHeader > p {
+  font-family: "poppins";
+  color: #fff;
+  /* color: #000; */
+  word-wrap: break-word;
+}
+
+
+.sidebarContent {
+  padding: 1rem;
+  margin-top: 1rem;
+  flex: 1;
+}
+
+.sidebarContent div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding: 12px;
+  border-radius: 5px;
+  outline: none;
+
+  cursor: pointer;
+  background-color: #222222;
+}
+.sidebarContent p {
+  margin-left: 1.1rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.sidebar_link {
+  color: #fff;
+  text-decoration: none;
+}
+.sidebar_link.active {
+  color: #222222;
+}
+
+.sidebar_item.active {
+  /* background-color: #0d6efd; */
+  background-color:#fff ;
+}
+
+.submit {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 20px; */
+}
+
+.submit > button {
+  display: inherit;
+  align-items: center;
+  justify-content: center;
+  background-color:#222222;
+  padding: 1rem;
+  width: 100%;
+  border: none;
+  border-top: 1px solid #fff;
+  outline: none;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+
+  .sidebar {
+    /* width: 80%; */
+  }
+
+}
+
+
+@media screen and (max-width: 600px) {
+  
+.slideButton {
+  position: absolute;
+  top: 2vh;
+  left: 200px;
+
+}
+  .sidebarHeader > p {
+    font-size: 24px;
+  }
+
+}

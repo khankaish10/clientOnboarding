@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'fiona';
+    src:local('fiona'), url('./fonts/fiona.ttf');
+}
+@font-face {
+    font-family: 'silverSouthSerif';
+    src:local('silverSouthSerif'), url('./fonts/Silver\ South\ Serif.ttf');
+}
+@font-face {
+    font-family: 'silverSouthScript';
+    src:local('silverSouthScript'), url('./fonts/Silver\ South\ Script.ttf');
+}
+@font-face {
+    font-family: 'silverSouthScriptAlt';
+    src:local('silverSouthScriptAlt'), url('./fonts/Silver\ South\ Script\ Alt.ttf');
+}
+@font-face {
+    font-family: 'silverSouthScriptLigatures';
+    src:local('silverSouthScriptLigatures'), url('./fonts/Silver\ South\ Script\ Ligatures.ttf');
+}
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box; 
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #222222;
+}
+

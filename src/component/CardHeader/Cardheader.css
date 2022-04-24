@@ -1,0 +1,42 @@
+
+
+.cardHeader {
+    /* font-family: 'fiona'; */
+    /* font-weight: 500; */
+    /* font-size: 1rem; */
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    background-color: #222222;
+    color: #fff;
+    z-index: 1;
+}
+
+.cardHeader .MuiSvgIcon-root {
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.headingLeft {
+    display: flex;
+    align-items: center; 
+    margin-right: 10px;
+}
+
+.headingLeft>h4 {
+    margin-left: 20px;
+    /* font-family: 'fiona'; */
+    font-weight: 500;
+
+    /* color: #fff; */
+}
+
+.cardPlayer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

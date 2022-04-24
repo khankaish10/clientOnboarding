@@ -1,0 +1,24 @@
+.Reminder p {
+    font-size: 1.3rem;
+}
+
+.Reminder button {
+    border: none;
+    padding: 10px 20px;
+    margin-right: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.Reminder .yesBtn:hover {
+    background-color: #b9b9b9;
+    color: white;
+}
+
+.submitAnyway {
+    background-color: #222222;
+    color: #fff;
+}
+.submitAnyway:hover {
+    background-color: #494949;
+}

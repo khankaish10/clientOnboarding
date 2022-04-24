@@ -1,0 +1,4 @@
+export const vintage = "https://firebasestorage.googleapis.com/v0/b/storybrand-ff62d.appspot.com/o/designPreferenceImages%2Fvintage.jpg?alt=media&token=820bed61-938e-4c0b-bc4c-af7583d5251b"
+export const typographic = "https://firebasestorage.googleapis.com/v0/b/storybrand-ff62d.appspot.com/o/designPreferenceImages%2FTypographic.jpg?alt=media&token=38a7b1aa-8f12-4da0-bcbe-7255eab91d34"
+export const feminime = "https://firebasestorage.googleapis.com/v0/b/storybrand-ff62d.appspot.com/o/designPreferenceImages%2FFeminime.jpg?alt=media&token=63ca6903-b136-41ec-8083-7f34607a4048"
+export const masculine = "https://firebasestorage.googleapis.com/v0/b/storybrand-ff62d.appspot.com/o/designPreferenceImages%2FMasculine.jpg?alt=media&token=daa048e1-ff3b-47dc-883b-6fd84a406889"
