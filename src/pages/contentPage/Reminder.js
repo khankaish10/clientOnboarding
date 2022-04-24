@@ -78,7 +78,7 @@ const Reminder = () => {
 
     try {
       axios
-        .post("https://synergybrandworks.herokuapp.com/submit", cardData)
+        .post("https://clientonboardingapplication.herokuapp.com/submit", cardData)
         .then(function (response) {
           setState({ ...state, open: true });
           setTimeout(() => {

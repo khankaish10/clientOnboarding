@@ -63,7 +63,8 @@ const logout = (history) => async (dispatch) => {
 const forgetEmail = (email) => async (dispatch) => {
   auth
     .sendPasswordResetEmail(email, {
-      url: "https://synergybrandworks.netlify.app/signin",
+      url: "https://clientonboarding.netlify.app/signin",
+      // https://hooks.zapier.com/hooks/catch/12381009/bzc45fd/
     })
     .then((res) => {
       dispatch({
